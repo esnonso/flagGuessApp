@@ -1,11 +1,13 @@
 import React, { Component } from 'react';
+import Navbar from './nav'
 import './App.css';
 
 class FlagGuessApp extends Component {
   render(){
     return(
       <div className="App">
-        <h1>Country Flag Guessing App</h1>
+        <Navbar />
+        
       </div>
     )
   }
